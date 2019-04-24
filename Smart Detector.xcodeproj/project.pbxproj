@@ -7,15 +7,146 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D0DB0642246753500C79BE4 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0DB0632246753500C79BE4 /* ContainerController.swift */; };
+		8D0DB0662246755C00C79BE4 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0DB0652246755C00C79BE4 /* HomeController.swift */; };
+		8D0DB0682246759800C79BE4 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0DB0672246759800C79BE4 /* MenuController.swift */; };
+		8D0DB06A2246957700C79BE4 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0DB0692246957700C79BE4 /* Protocols.swift */; };
+		8D0DB06C2246C6EC00C79BE4 /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0DB06B2246C6EC00C79BE4 /* MenuOptionCell.swift */; };
+		8D0DB06E224796DC00C79BE4 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0DB06D224796DC00C79BE4 /* MenuOption.swift */; };
+		8D1006E32256E7940092820C /* NewDeliveryCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1006E22256E7940092820C /* NewDeliveryCollectionVC.swift */; };
+		8D1006E52256E8DA0092820C /* NewDeliveryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1006E42256E8DA0092820C /* NewDeliveryCell.swift */; };
+		8D1595F92248F9BD00553F52 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1595F82248F9BD00553F52 /* SettingsController.swift */; };
+		8D1595FB22492F2700553F52 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1595FA22492F2600553F52 /* SettingsCell.swift */; };
+		8D1595FD22492F4200553F52 /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1595FC22492F4200553F52 /* UserInfoHeader.swift */; };
+		8D1595FF2249FD5700553F52 /* SettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1595FE2249FD5700553F52 /* SettingsSection.swift */; };
+		8D29CD5D2259FBE900635693 /* DesinationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29CD5C2259FBE900635693 /* DesinationVC.swift */; };
+		8D29CD5F2259FBFE00635693 /* CarrierVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29CD5E2259FBFE00635693 /* CarrierVC.swift */; };
+		8D29CD612259FF7600635693 /* DestinationVC+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29CD602259FF7600635693 /* DestinationVC+Search.swift */; };
+		8D29CD63225A04D500635693 /* DestinationVCcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29CD62225A04D500635693 /* DestinationVCcell.swift */; };
+		8D29CD65225A31B000635693 /* Carrier+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29CD64225A31B000635693 /* Carrier+Search.swift */; };
+		8D29CD67225A37AC00635693 /* CarrierVCcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29CD66225A37AC00635693 /* CarrierVCcell.swift */; };
+		8D2A8484224E1CD300E64B41 /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2A8483224E1CD300E64B41 /* MainViewPresenter.swift */; };
+		8D2A8486224E1D0300E64B41 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2A8485224E1D0300E64B41 /* MainView.swift */; };
+		8D4E74F422707B9500177546 /* Nem2SdkSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4E74F02270762000177546 /* Nem2SdkSwift.framework */; };
+		8D4E74F522707B9500177546 /* Nem2SdkSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4E74F02270762000177546 /* Nem2SdkSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D4E74F922707C5A00177546 /* SendXemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E74F822707C5A00177546 /* SendXemViewController.swift */; };
+		8D66F875224F8D3F0077EACD /* QRCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D66F874224F8D3F0077EACD /* QRCodeCell.swift */; };
+		8D66F877224F912C0077EACD /* EgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D66F876224F912C0077EACD /* EgTableViewCell.swift */; };
 		8D7DCC2B221D7A8800747B71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7DCC2A221D7A8800747B71 /* AppDelegate.swift */; };
 		8D7DCC2D221D7A8800747B71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7DCC2C221D7A8800747B71 /* ViewController.swift */; };
 		8D7DCC30221D7A8800747B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7DCC2E221D7A8800747B71 /* Main.storyboard */; };
 		8D7DCC33221D7A8800747B71 /* Smart_Detector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D7DCC31221D7A8800747B71 /* Smart_Detector.xcdatamodeld */; };
 		8D7DCC35221D7A8A00747B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7DCC34221D7A8A00747B71 /* Assets.xcassets */; };
 		8D7DCC38221D7A8A00747B71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7DCC36221D7A8A00747B71 /* LaunchScreen.storyboard */; };
+		8D814525227058CA006328F7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D814524227058C9006328F7 /* Alamofire.framework */; };
+		8D814526227058CA006328F7 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D814524227058C9006328F7 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D814528227058F0006328F7 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D814527227058F0006328F7 /* CryptoSwift.framework */; };
+		8D814529227058F0006328F7 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D814527227058F0006328F7 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D81452B22705909006328F7 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D81452A22705909006328F7 /* RxSwift.framework */; };
+		8D81452C22705909006328F7 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D81452A22705909006328F7 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D81452E22705937006328F7 /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D81452D22705937006328F7 /* RxAtomic.framework */; };
+		8D81452F22705937006328F7 /* RxAtomic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D81452D22705937006328F7 /* RxAtomic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D8145312270593F006328F7 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8145302270593F006328F7 /* RxBlocking.framework */; };
+		8D8145322270593F006328F7 /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8145302270593F006328F7 /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D81453422705949006328F7 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D81453322705949006328F7 /* RxCocoa.framework */; };
+		8D81453522705949006328F7 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D81453322705949006328F7 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D81453A22705959006328F7 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D81453922705959006328F7 /* Starscream.framework */; };
+		8D81453B22705959006328F7 /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D81453922705959006328F7 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D9C995E22646BD900686CF2 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C995D22646BD900686CF2 /* OrdersViewController.swift */; };
+		8D9C99602267285400686CF2 /* MedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C995F2267285300686CF2 /* MedicineViewController.swift */; };
+		8D9C9962226763A400686CF2 /* MedicineListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C9961226763A400686CF2 /* MedicineListCell.swift */; };
+		8D9C996422678A3400686CF2 /* MedicineList+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C996322678A3400686CF2 /* MedicineList+Search.swift */; };
+		8DC9848C224BC86C0009D9F0 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9848B224BC86C0009D9F0 /* SignUpController.swift */; };
+		8DC9848E224BC8760009D9F0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9848D224BC8760009D9F0 /* LoginController.swift */; };
+		8DC98490224BC8870009D9F0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9848F224BC8870009D9F0 /* Extensions.swift */; };
+		8DC98494224BD25E0009D9F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DC98493224BD25E0009D9F0 /* GoogleService-Info.plist */; };
+		8DE5DF0B2253447B0074849B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5DF0A2253447B0074849B /* Utilities.swift */; };
+		8DE5DF122254A9C20074849B /* DBProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5DF0D2254A9C20074849B /* DBProvider.swift */; };
+		8DE5DF132254A9C20074849B /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5DF0E2254A9C20074849B /* AuthProvider.swift */; };
+		8DE5DF142254A9C20074849B /* TaxiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5DF0F2254A9C20074849B /* TaxiHandler.swift */; };
+		8DE5DF162254A9C20074849B /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5DF112254A9C20074849B /* Contants.swift */; };
+		8DE5DF182254AA980074849B /* CreateAccountVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5DF172254AA980074849B /* CreateAccountVc.swift */; };
+		8DE5DF1A2254AAA00074849B /* SignInVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5DF192254AAA00074849B /* SignInVc.swift */; };
+		8DE5DF1C225511050074849B /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5DF1B225511040074849B /* MyData.swift */; };
+		8DE5DF1E225511C80074849B /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5DF1D225511C80074849B /* MyCollectionViewController.swift */; };
+		8DE5DF20225511DC0074849B /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5DF1F225511DC0074849B /* MyCollectionViewCell.swift */; };
+		8DE5DF22225512DA0074849B /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5DF21225512DA0074849B /* MyViewController.swift */; };
+		8DE5DF24225534280074849B /* MyCollView+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5DF23225534280074849B /* MyCollView+Search.swift */; };
+		BAA37E9E83671CE97131A8BD /* Pods_Smart_Detector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7057DD95BEFA9694608A0B3 /* Pods_Smart_Detector.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8D4E74EF2270762000177546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D4E74EA2270761F00177546 /* Nem2SdkSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5F61FE792159AC0500B8474A;
+			remoteInfo = Nem2SdkSwift;
+		};
+		8D4E74F12270762000177546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D4E74EA2270761F00177546 /* Nem2SdkSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5F61FE822159AC0500B8474A;
+			remoteInfo = Nem2SdkSwiftTests;
+		};
+		8D4E74F622707B9500177546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D4E74EA2270761F00177546 /* Nem2SdkSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F61FE782159AC0500B8474A;
+			remoteInfo = Nem2SdkSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D81452222705829006328F7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8D81452F22705937006328F7 /* RxAtomic.framework in Embed Frameworks */,
+				8D81452C22705909006328F7 /* RxSwift.framework in Embed Frameworks */,
+				8D81453522705949006328F7 /* RxCocoa.framework in Embed Frameworks */,
+				8D4E74F522707B9500177546 /* Nem2SdkSwift.framework in Embed Frameworks */,
+				8D814529227058F0006328F7 /* CryptoSwift.framework in Embed Frameworks */,
+				8D81453B22705959006328F7 /* Starscream.framework in Embed Frameworks */,
+				8D814526227058CA006328F7 /* Alamofire.framework in Embed Frameworks */,
+				8D8145322270593F006328F7 /* RxBlocking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3124202B9DBA21EE897A3A6B /* Pods-Smart Detector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Detector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smart Detector/Pods-Smart Detector.debug.xcconfig"; sourceTree = "<group>"; };
+		371445A7F6241005FF663EC8 /* Pods-Smart Detector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Detector.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smart Detector/Pods-Smart Detector.release.xcconfig"; sourceTree = "<group>"; };
+		8D0DB0632246753500C79BE4 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		8D0DB0652246755C00C79BE4 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		8D0DB0672246759800C79BE4 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		8D0DB0692246957700C79BE4 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		8D0DB06B2246C6EC00C79BE4 /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
+		8D0DB06D224796DC00C79BE4 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		8D1006E22256E7940092820C /* NewDeliveryCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDeliveryCollectionVC.swift; sourceTree = "<group>"; };
+		8D1006E42256E8DA0092820C /* NewDeliveryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDeliveryCell.swift; sourceTree = "<group>"; };
+		8D1595F82248F9BD00553F52 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		8D1595FA22492F2600553F52 /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		8D1595FC22492F4200553F52 /* UserInfoHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoHeader.swift; sourceTree = "<group>"; };
+		8D1595FE2249FD5700553F52 /* SettingsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSection.swift; sourceTree = "<group>"; };
+		8D29CD5C2259FBE900635693 /* DesinationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesinationVC.swift; sourceTree = "<group>"; };
+		8D29CD5E2259FBFE00635693 /* CarrierVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierVC.swift; sourceTree = "<group>"; };
+		8D29CD602259FF7600635693 /* DestinationVC+Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DestinationVC+Search.swift"; sourceTree = "<group>"; };
+		8D29CD62225A04D500635693 /* DestinationVCcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationVCcell.swift; sourceTree = "<group>"; };
+		8D29CD64225A31B000635693 /* Carrier+Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Carrier+Search.swift"; sourceTree = "<group>"; };
+		8D29CD66225A37AC00635693 /* CarrierVCcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierVCcell.swift; sourceTree = "<group>"; };
+		8D2A8483224E1CD300E64B41 /* MainViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
+		8D2A8485224E1D0300E64B41 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8D4E74EA2270761F00177546 /* Nem2SdkSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nem2SdkSwift.xcodeproj; path = "../nem2-sdk-swift/Nem2SdkSwift.xcodeproj"; sourceTree = "<group>"; };
+		8D4E74F822707C5A00177546 /* SendXemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendXemViewController.swift; sourceTree = "<group>"; };
+		8D66F874224F8D3F0077EACD /* QRCodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeCell.swift; sourceTree = "<group>"; };
+		8D66F876224F912C0077EACD /* EgTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgTableViewCell.swift; sourceTree = "<group>"; };
 		8D7DCC27221D7A8800747B71 /* Smart Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7DCC2A221D7A8800747B71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D7DCC2C221D7A8800747B71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +155,34 @@
 		8D7DCC34221D7A8A00747B71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D7DCC37221D7A8A00747B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D7DCC39221D7A8A00747B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D814524227058C9006328F7 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		8D814527227058F0006328F7 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = "<group>"; };
+		8D81452A22705909006328F7 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
+		8D81452D22705937006328F7 /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxAtomic.framework; sourceTree = "<group>"; };
+		8D8145302270593F006328F7 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxBlocking.framework; sourceTree = "<group>"; };
+		8D81453322705949006328F7 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
+		8D81453922705959006328F7 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Starscream.framework; sourceTree = "<group>"; };
+		8D9C995D22646BD900686CF2 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		8D9C995F2267285300686CF2 /* MedicineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineViewController.swift; sourceTree = "<group>"; };
+		8D9C9961226763A400686CF2 /* MedicineListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineListCell.swift; sourceTree = "<group>"; };
+		8D9C996322678A3400686CF2 /* MedicineList+Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MedicineList+Search.swift"; sourceTree = "<group>"; };
+		8DC9848B224BC86C0009D9F0 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		8DC9848D224BC8760009D9F0 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		8DC9848F224BC8870009D9F0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8DC98493224BD25E0009D9F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8DE5DF0A2253447B0074849B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		8DE5DF0D2254A9C20074849B /* DBProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBProvider.swift; sourceTree = "<group>"; };
+		8DE5DF0E2254A9C20074849B /* AuthProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
+		8DE5DF0F2254A9C20074849B /* TaxiHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxiHandler.swift; sourceTree = "<group>"; };
+		8DE5DF112254A9C20074849B /* Contants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		8DE5DF172254AA980074849B /* CreateAccountVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountVc.swift; sourceTree = "<group>"; };
+		8DE5DF192254AAA00074849B /* SignInVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVc.swift; sourceTree = "<group>"; };
+		8DE5DF1B225511040074849B /* MyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		8DE5DF1D225511C80074849B /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		8DE5DF1F225511DC0074849B /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		8DE5DF21225512DA0074849B /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		8DE5DF23225534280074849B /* MyCollView+Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyCollView+Search.swift"; sourceTree = "<group>"; };
+		F7057DD95BEFA9694608A0B3 /* Pods_Smart_Detector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_Detector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +190,110 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8145312270593F006328F7 /* RxBlocking.framework in Frameworks */,
+				8D81452B22705909006328F7 /* RxSwift.framework in Frameworks */,
+				8D81453A22705959006328F7 /* Starscream.framework in Frameworks */,
+				BAA37E9E83671CE97131A8BD /* Pods_Smart_Detector.framework in Frameworks */,
+				8D814525227058CA006328F7 /* Alamofire.framework in Frameworks */,
+				8D81453422705949006328F7 /* RxCocoa.framework in Frameworks */,
+				8D814528227058F0006328F7 /* CryptoSwift.framework in Frameworks */,
+				8D81452E22705937006328F7 /* RxAtomic.framework in Frameworks */,
+				8D4E74F422707B9500177546 /* Nem2SdkSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D0DB05F2246745A00C79BE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D9C995C22646B6700686CF2 /* Orders */,
+				8DE5DF21225512DA0074849B /* MyViewController.swift */,
+				8DE5DF1D225511C80074849B /* MyCollectionViewController.swift */,
+				8DE5DF192254AAA00074849B /* SignInVc.swift */,
+				8DE5DF172254AA980074849B /* CreateAccountVc.swift */,
+				8DC9848D224BC8760009D9F0 /* LoginController.swift */,
+				8DC9848B224BC86C0009D9F0 /* SignUpController.swift */,
+				8D0DB0632246753500C79BE4 /* ContainerController.swift */,
+				8D0DB0652246755C00C79BE4 /* HomeController.swift */,
+				8D0DB0672246759800C79BE4 /* MenuController.swift */,
+				8D1595F82248F9BD00553F52 /* SettingsController.swift */,
+				8D1006E22256E7940092820C /* NewDeliveryCollectionVC.swift */,
+				8D29CD5C2259FBE900635693 /* DesinationVC.swift */,
+				8D29CD5E2259FBFE00635693 /* CarrierVC.swift */,
+				8D4E74F822707C5A00177546 /* SendXemViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D0DB0602246746300C79BE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DE5DF1F225511DC0074849B /* MyCollectionViewCell.swift */,
+				8D2A8485224E1D0300E64B41 /* MainView.swift */,
+				8D2A8483224E1CD300E64B41 /* MainViewPresenter.swift */,
+				8D1595FC22492F4200553F52 /* UserInfoHeader.swift */,
+				8D1595FA22492F2600553F52 /* SettingsCell.swift */,
+				8D0DB06B2246C6EC00C79BE4 /* MenuOptionCell.swift */,
+				8D66F874224F8D3F0077EACD /* QRCodeCell.swift */,
+				8D66F876224F912C0077EACD /* EgTableViewCell.swift */,
+				8D1006E42256E8DA0092820C /* NewDeliveryCell.swift */,
+				8D29CD62225A04D500635693 /* DestinationVCcell.swift */,
+				8D29CD66225A37AC00635693 /* CarrierVCcell.swift */,
+				8D9C9961226763A400686CF2 /* MedicineListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D0DB0612246746B00C79BE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DE5DF1B225511040074849B /* MyData.swift */,
+				8D0DB06D224796DC00C79BE4 /* MenuOption.swift */,
+				8D1595FE2249FD5700553F52 /* SettingsSection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D0DB0622246747000C79BE4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8D0DB0692246957700C79BE4 /* Protocols.swift */,
+				8DC9848F224BC8870009D9F0 /* Extensions.swift */,
+				8DE5DF0A2253447B0074849B /* Utilities.swift */,
+				8DE5DF23225534280074849B /* MyCollView+Search.swift */,
+				8D29CD602259FF7600635693 /* DestinationVC+Search.swift */,
+				8D29CD64225A31B000635693 /* Carrier+Search.swift */,
+				8D9C996322678A3400686CF2 /* MedicineList+Search.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8D4E74EB2270761F00177546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E74F02270762000177546 /* Nem2SdkSwift.framework */,
+				8D4E74F22270762000177546 /* Nem2SdkSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		8D7DCC1E221D7A8800747B71 = {
 			isa = PBXGroup;
 			children = (
+				8D4E74EA2270761F00177546 /* Nem2SdkSwift.xcodeproj */,
+				8D81453922705959006328F7 /* Starscream.framework */,
+				8D81453322705949006328F7 /* RxCocoa.framework */,
+				8D8145302270593F006328F7 /* RxBlocking.framework */,
+				8D81452D22705937006328F7 /* RxAtomic.framework */,
+				8D81452A22705909006328F7 /* RxSwift.framework */,
+				8D814527227058F0006328F7 /* CryptoSwift.framework */,
+				8D814524227058C9006328F7 /* Alamofire.framework */,
 				8D7DCC29221D7A8800747B71 /* Smart Detector */,
 				8D7DCC28221D7A8800747B71 /* Products */,
+				EF4EA1130696A0B9EC81159D /* Pods */,
+				B4435C1AFF6173BFC839A0A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +308,12 @@
 		8D7DCC29221D7A8800747B71 /* Smart Detector */ = {
 			isa = PBXGroup;
 			children = (
+				8DE5DF0C2254A9C20074849B /* Plugins */,
+				8DC98493224BD25E0009D9F0 /* GoogleService-Info.plist */,
+				8D0DB0622246747000C79BE4 /* Utils */,
+				8D0DB0612246746B00C79BE4 /* Model */,
+				8D0DB0602246746300C79BE4 /* View */,
+				8D0DB05F2246745A00C79BE4 /* Controller */,
 				8D7DCC2A221D7A8800747B71 /* AppDelegate.swift */,
 				8D7DCC2C221D7A8800747B71 /* ViewController.swift */,
 				8D7DCC2E221D7A8800747B71 /* Main.storyboard */,
@@ -67,6 +325,43 @@
 			path = "Smart Detector";
 			sourceTree = "<group>";
 		};
+		8D9C995C22646B6700686CF2 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				8D9C995D22646BD900686CF2 /* OrdersViewController.swift */,
+				8D9C995F2267285300686CF2 /* MedicineViewController.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		8DE5DF0C2254A9C20074849B /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				8DE5DF0D2254A9C20074849B /* DBProvider.swift */,
+				8DE5DF0E2254A9C20074849B /* AuthProvider.swift */,
+				8DE5DF0F2254A9C20074849B /* TaxiHandler.swift */,
+				8DE5DF112254A9C20074849B /* Contants.swift */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		B4435C1AFF6173BFC839A0A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7057DD95BEFA9694608A0B3 /* Pods_Smart_Detector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF4EA1130696A0B9EC81159D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3124202B9DBA21EE897A3A6B /* Pods-Smart Detector.debug.xcconfig */,
+				371445A7F6241005FF663EC8 /* Pods-Smart Detector.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,13 +369,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D7DCC3C221D7A8B00747B71 /* Build configuration list for PBXNativeTarget "Smart Detector" */;
 			buildPhases = (
+				BECC114CF1F488C979524518 /* [CP] Check Pods Manifest.lock */,
 				8D7DCC23221D7A8800747B71 /* Sources */,
 				8D7DCC24221D7A8800747B71 /* Frameworks */,
 				8D7DCC25221D7A8800747B71 /* Resources */,
+				47C75FB0F4A4473F40490AA4 /* [CP] Embed Pods Frameworks */,
+				8D81452222705829006328F7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8D4E74F722707B9500177546 /* PBXTargetDependency */,
 			);
 			name = "Smart Detector";
 			productName = "Smart Detector";
@@ -113,6 +412,12 @@
 			mainGroup = 8D7DCC1E221D7A8800747B71;
 			productRefGroup = 8D7DCC28221D7A8800747B71 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8D4E74EB2270761F00177546 /* Products */;
+					ProjectRef = 8D4E74EA2270761F00177546 /* Nem2SdkSwift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8D7DCC26221D7A8800747B71 /* Smart Detector */,
@@ -120,12 +425,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		8D4E74F02270762000177546 /* Nem2SdkSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Nem2SdkSwift.framework;
+			remoteRef = 8D4E74EF2270762000177546 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8D4E74F22270762000177546 /* Nem2SdkSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Nem2SdkSwiftTests.xctest;
+			remoteRef = 8D4E74F12270762000177546 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		8D7DCC25221D7A8800747B71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8D7DCC38221D7A8A00747B71 /* LaunchScreen.storyboard in Resources */,
+				8DC98494224BD25E0009D9F0 /* GoogleService-Info.plist in Resources */,
 				8D7DCC35221D7A8A00747B71 /* Assets.xcassets in Resources */,
 				8D7DCC30221D7A8800747B71 /* Main.storyboard in Resources */,
 			);
@@ -133,18 +456,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47C75FB0F4A4473F40490AA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Smart Detector/Pods-Smart Detector-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart Detector/Pods-Smart Detector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BECC114CF1F488C979524518 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smart Detector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D7DCC23221D7A8800747B71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE5DF142254A9C20074849B /* TaxiHandler.swift in Sources */,
 				8D7DCC33221D7A8800747B71 /* Smart_Detector.xcdatamodeld in Sources */,
+				8DE5DF1A2254AAA00074849B /* SignInVc.swift in Sources */,
+				8D2A8486224E1D0300E64B41 /* MainView.swift in Sources */,
+				8D1006E52256E8DA0092820C /* NewDeliveryCell.swift in Sources */,
+				8D1595FF2249FD5700553F52 /* SettingsSection.swift in Sources */,
 				8D7DCC2D221D7A8800747B71 /* ViewController.swift in Sources */,
+				8D9C995E22646BD900686CF2 /* OrdersViewController.swift in Sources */,
+				8D0DB06A2246957700C79BE4 /* Protocols.swift in Sources */,
+				8DC9848E224BC8760009D9F0 /* LoginController.swift in Sources */,
 				8D7DCC2B221D7A8800747B71 /* AppDelegate.swift in Sources */,
+				8DE5DF182254AA980074849B /* CreateAccountVc.swift in Sources */,
+				8D0DB06E224796DC00C79BE4 /* MenuOption.swift in Sources */,
+				8DE5DF1E225511C80074849B /* MyCollectionViewController.swift in Sources */,
+				8D0DB0642246753500C79BE4 /* ContainerController.swift in Sources */,
+				8D4E74F922707C5A00177546 /* SendXemViewController.swift in Sources */,
+				8D29CD65225A31B000635693 /* Carrier+Search.swift in Sources */,
+				8DE5DF0B2253447B0074849B /* Utilities.swift in Sources */,
+				8D29CD5F2259FBFE00635693 /* CarrierVC.swift in Sources */,
+				8D1595F92248F9BD00553F52 /* SettingsController.swift in Sources */,
+				8D1595FD22492F4200553F52 /* UserInfoHeader.swift in Sources */,
+				8D66F877224F912C0077EACD /* EgTableViewCell.swift in Sources */,
+				8DC9848C224BC86C0009D9F0 /* SignUpController.swift in Sources */,
+				8DE5DF132254A9C20074849B /* AuthProvider.swift in Sources */,
+				8D29CD63225A04D500635693 /* DestinationVCcell.swift in Sources */,
+				8D66F875224F8D3F0077EACD /* QRCodeCell.swift in Sources */,
+				8DE5DF1C225511050074849B /* MyData.swift in Sources */,
+				8DE5DF22225512DA0074849B /* MyViewController.swift in Sources */,
+				8DE5DF162254A9C20074849B /* Contants.swift in Sources */,
+				8DC98490224BC8870009D9F0 /* Extensions.swift in Sources */,
+				8D0DB06C2246C6EC00C79BE4 /* MenuOptionCell.swift in Sources */,
+				8D29CD5D2259FBE900635693 /* DesinationVC.swift in Sources */,
+				8D0DB0682246759800C79BE4 /* MenuController.swift in Sources */,
+				8D29CD67225A37AC00635693 /* CarrierVCcell.swift in Sources */,
+				8D1006E32256E7940092820C /* NewDeliveryCollectionVC.swift in Sources */,
+				8DE5DF122254A9C20074849B /* DBProvider.swift in Sources */,
+				8D9C996422678A3400686CF2 /* MedicineList+Search.swift in Sources */,
+				8DE5DF20225511DC0074849B /* MyCollectionViewCell.swift in Sources */,
+				8D9C99602267285400686CF2 /* MedicineViewController.swift in Sources */,
+				8D29CD612259FF7600635693 /* DestinationVC+Search.swift in Sources */,
+				8D2A8484224E1CD300E64B41 /* MainViewPresenter.swift in Sources */,
+				8D0DB0662246755C00C79BE4 /* HomeController.swift in Sources */,
+				8DE5DF24225534280074849B /* MyCollView+Search.swift in Sources */,
+				8D9C9962226763A400686CF2 /* MedicineListCell.swift in Sources */,
+				8D1595FB22492F2700553F52 /* SettingsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D4E74F722707B9500177546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Nem2SdkSwift;
+			targetProxy = 8D4E74F622707B9500177546 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8D7DCC2E221D7A8800747B71 /* Main.storyboard */ = {
@@ -284,16 +702,23 @@
 		};
 		8D7DCC3D221D7A8B00747B71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3124202B9DBA21EE897A3A6B /* Pods-Smart Detector.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6U2J2XM8T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/nem2-sdk-swift/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Smart Detector/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "net.codextreme.Smart-Detector";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.codextreme.Smart-Detector.Doctors";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,16 +727,23 @@
 		};
 		8D7DCC3E221D7A8B00747B71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371445A7F6241005FF663EC8 /* Pods-Smart Detector.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6U2J2XM8T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/nem2-sdk-swift/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Smart Detector/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "net.codextreme.Smart-Detector";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.codextreme.Smart-Detector.Doctors";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

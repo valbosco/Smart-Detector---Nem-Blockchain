@@ -1,0 +1,6 @@
+framework module Pods_Smart_Detector {
+  umbrella header "Pods-Smart Detector-umbrella.h"
+
+  export *
+  module * { export * }
+}
